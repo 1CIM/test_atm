@@ -1,0 +1,16 @@
+{
+  "name": "test_js_atm",
+  "version": "1.0.0",
+  "main": "src/assets/app.js",
+  "repository": "https://github.com/1CIM/test_atm.git",
+  "author": "kim_haaga <kim.haaga@live.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "superstatic": "^7.1.0"
+  },
+  "scripts": {
+    "start": "superstatic src --port 3005",
+    "cy:open": "yarn start & cypress open"
+  }
+}
